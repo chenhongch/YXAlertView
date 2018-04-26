@@ -15,6 +15,10 @@
 		A501F17C207477FB00D2241F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A501F17B207477FB00D2241F /* main.m */; };
 		A501F186207477FB00D2241F /* YXAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A501F185207477FB00D2241F /* YXAlertViewTests.m */; };
 		A501F191207477FB00D2241F /* YXAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A501F190207477FB00D2241F /* YXAlertViewUITests.m */; };
+		A51B4DC62079AC3000E98681 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A51B4DC52079AC3000E98681 /* icon1.png */; };
+		A5F0AC3B209074310046C0F2 /* YXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0AC38209074310046C0F2 /* YXAlertView.m */; };
+		A5F0AC3C209074310046C0F2 /* NSString+YXAlter.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0AC3A209074310046C0F2 /* NSString+YXAlter.m */; };
+		A5F0AC3F2090744F0046C0F2 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F0AC3E2090744F0046C0F2 /* UIView+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		A501F18C207477FB00D2241F /* YXAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A501F190207477FB00D2241F /* YXAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAlertViewUITests.m; sourceTree = "<group>"; };
 		A501F192207477FB00D2241F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51B4DC52079AC3000E98681 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		A5F0AC37209074310046C0F2 /* NSString+YXAlter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YXAlter.h"; sourceTree = "<group>"; };
+		A5F0AC38209074310046C0F2 /* YXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXAlertView.m; sourceTree = "<group>"; };
+		A5F0AC39209074310046C0F2 /* YXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXAlertView.h; sourceTree = "<group>"; };
+		A5F0AC3A209074310046C0F2 /* NSString+YXAlter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YXAlter.m"; sourceTree = "<group>"; };
+		A5F0AC3D2090744E0046C0F2 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		A5F0AC3E2090744F0046C0F2 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,12 @@
 		A501F16B207477FB00D2241F /* YXAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				A5F0AC36209074310046C0F2 /* YXAlertView */,
 				A501F16C207477FB00D2241F /* AppDelegate.h */,
 				A501F16D207477FB00D2241F /* AppDelegate.m */,
 				A501F16F207477FB00D2241F /* ViewController.h */,
 				A501F170207477FB00D2241F /* ViewController.m */,
+				A51B4DC52079AC3000E98681 /* icon1.png */,
 				A501F172207477FB00D2241F /* Main.storyboard */,
 				A501F175207477FB00D2241F /* Assets.xcassets */,
 				A501F177207477FB00D2241F /* LaunchScreen.storyboard */,
@@ -130,6 +143,19 @@
 				A501F192207477FB00D2241F /* Info.plist */,
 			);
 			path = YXAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		A5F0AC36209074310046C0F2 /* YXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0AC3D2090744E0046C0F2 /* UIView+Category.h */,
+				A5F0AC3E2090744F0046C0F2 /* UIView+Category.m */,
+				A5F0AC38209074310046C0F2 /* YXAlertView.m */,
+				A5F0AC39209074310046C0F2 /* YXAlertView.h */,
+				A5F0AC37209074310046C0F2 /* NSString+YXAlter.h */,
+				A5F0AC3A209074310046C0F2 /* NSString+YXAlter.m */,
+			);
+			path = YXAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +266,7 @@
 			files = (
 				A501F179207477FB00D2241F /* LaunchScreen.storyboard in Resources */,
 				A501F176207477FB00D2241F /* Assets.xcassets in Resources */,
+				A51B4DC62079AC3000E98681 /* icon1.png in Resources */,
 				A501F174207477FB00D2241F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F0AC3B209074310046C0F2 /* YXAlertView.m in Sources */,
 				A501F171207477FB00D2241F /* ViewController.m in Sources */,
+				A5F0AC3C209074310046C0F2 /* NSString+YXAlter.m in Sources */,
 				A501F17C207477FB00D2241F /* main.m in Sources */,
+				A5F0AC3F2090744F0046C0F2 /* UIView+Category.m in Sources */,
 				A501F16E207477FB00D2241F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

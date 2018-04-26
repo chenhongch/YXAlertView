@@ -10,11 +10,11 @@
 
 ###### 2. 提示带有小图 
 
-![icon3](https://github.com/chenhongch/YXAlertView/blob/master/icon/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-04-08%20at%2012.03.44.png)
+![icon3](https://github.com/chenhongch/YXAlertView/blob/master/icon/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-04-08%20at%2012.03.44.png)  
 ![icon4](https://github.com/chenhongch/YXAlertView/blob/master/icon/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-04-08%20at%2012.05.18.png)
 ###### 3.  提示带有大图  
 
-![icon4](https://github.com/chenhongch/YXAlertView/blob/master/icon/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-04-26%20at%2009.54.05.png)
+![icon4](https://github.com/chenhongch/YXAlertView/blob/master/icon/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-04-26%20at%2009.54.05.png  
 ![icon5](https://github.com/chenhongch/YXAlertView/blob/master/icon/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202018-04-26%20at%2009.55.34.png)
 
 
